@@ -25,6 +25,11 @@ app.use(express.json());
    * Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
    */
 
+   /**
+    * Driver: SELECT * FROM users
+    * Query Builder: table('users').select('*').where()
+    */
+
 app.post('/users', (request, response) =>{
     const body = request.body;
     
