@@ -22,7 +22,7 @@ export default function NewIncident(){
                     </Link>
                 </section>
                 <form>
-                    <input placeholder="Título do cado"/>
+                    <input placeholder="Título do caso"/>
                     <textarea placeholder="Descrição" />
                     <input placeholder="Valor em reais" />                    
 
